@@ -3,7 +3,8 @@ import './App.css';
 import { characters } from './data/characters.js';
 import CandidateCard from './components/CandidateCard.jsx';
 
-const API_BASE = 'http://localhost:3001';
+// const API_BASE = 'http://localhost:3001';
+const API_BASE = 'https://592eba9f67ab.ngrok.app'; // Temporary public URL for testing
 
 function App() {
   const [gameState, setGameState] = useState('splash'); // splash, interview, opening-night, recap
